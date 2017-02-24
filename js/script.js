@@ -11,7 +11,7 @@ function hideVideo() {
 function hideOrder() {
     document.getElementById('order').style.display = 'none';
 }
-function scrollTo(target){
+function scrollMeTo(target){
 	     hideVideo();
          hideOrder();
         var speed = 1000;
