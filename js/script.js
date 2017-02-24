@@ -16,7 +16,6 @@ function scrollMeTo(target){
          hideOrder();
         var speed = 1000;
         var top = document.querySelector('#' + target).getBoundingClientRect().top + window.scrollY;
-	console.log(top);
         $('html, body').animate({scrollTop: top}, speed);
         return false;
     };
