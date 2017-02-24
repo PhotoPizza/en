@@ -15,7 +15,7 @@ function scrollTo(target){
 	     hideVideo();
          hideOrder();
         var speed = 1000;
-        var top = $('#' + target).offset().top;
+        var top = document.querySelector('#' + target).offset().top;
         $('html, body').animate({scrollTop: top}, speed);
         return false;
     };
